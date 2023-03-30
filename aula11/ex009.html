@@ -16,14 +16,15 @@
 
     <script>
         function verificar(){
-            var txtres = window.document.querySelector('input#txtpais')
+            var txtome = window.document.querySelector('input#txtpais')
             var res = window.document.querySelector('div#res')
-            var n1 = Text(txtres.value)
-            res.innerHTML = `<p>Sua identificação é como <strong>${n1}</strong></p>`
-            if(n1 = Brasil) {
+            var tome = String(txtome.value)
+            res.innerHTML = `<p>Sua identificação é como <strong>${tome}</strong></p>`
+            if(tome == 'Brasil') {
                 res.innerHTML += `<p>TU É PARÇA MEU BROTHER</p>`
             }
             res.innerHTML += `<p>Seja sempre hu3!</p>`
+
         }
     </script>
 </body>
