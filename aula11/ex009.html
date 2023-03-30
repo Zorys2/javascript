@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiscalização dos gringo</title>
+</head>
+<body>
+    <h1>Fiscalizando os gringolord</h1>
+    Cê é gringo?<input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="Fiscalization" onclick="verificar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function verificar(){
+            var txtres = window.document.querySelector('input#txtpais')
+            var res = window.document.querySelector('div#res')
+            var n1 = Text(txtres.value)
+            res.innerHTML = `<p>Sua identificação é como <strong>${n1}</strong></p>`
+            if(n1 = Brasil) {
+                res.innerHTML += `<p>TU É PARÇA MEU BROTHER</p>`
+            }
+            res.innerHTML += `<p>Seja sempre hu3!</p>`
+        }
+    </script>
+</body>
+</html>
