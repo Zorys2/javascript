@@ -4,7 +4,7 @@ function carregar() {
     img.setAttribute('id', 'foto')
     var data = new Date()
     //var hora = data.getHours()
-    var hora = 20
+    var hora = 11
     msg.innerHTML = `Agora são ${hora} horas.`
     if (hora >= 0 && hora < 12) {
         img.setAttribute('src', 'manha.png')
